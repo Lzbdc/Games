@@ -3,7 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
- header nav li a {
+header {
+    padding: 16 0;
+    background-color: rgb(56, 45, 214);
+    color: rgb(215, 250, 245);
+}
+header nav li {
     display: inline;
     margin-left: 16px;
- }
+}
+header nav li a {
+    color:rgb(215, 250, 245)
+}
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;}
