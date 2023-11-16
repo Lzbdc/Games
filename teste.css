@@ -1,0 +1,27 @@
+/*configurações para PC */
+*{
+    margin: 10px auto;
+}
+.grande {
+    width:1200px;
+    height: 400px;
+    display:flex;
+    flex-direction: row;
+}
+.pequena {
+    flex: 1;
+    margin: 4px;
+}
+.pequena img {
+    width:100%;
+}
+
+/*configurações para celular */
+
+@media screen and (max-width:600px){
+.grande{
+    width:400px;
+    height:1200px;
+    flex-direction: column;}
+}
+
