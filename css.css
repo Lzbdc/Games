@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+.articles article img{
+    height: 180px;
+}
+.articles article {
+    width: 30%;
+}
+.articles {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header li, header li a {
+    display: inline;
+    text-decoration: none;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1 {
+    margin: 0 0 30px;
+}

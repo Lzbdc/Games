@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: cornflowerblue;
+    padding: 16px;
+}
+
+header .container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header li {
+    display: inline;
+}
+header li a {
+    text-decoration: none;
+    color: aquamarine;
+}
+.container {
+    padding-left: 16px;
+    margin: 0 auto;    max-width: 1280px;
+    width: 100%;
+}
