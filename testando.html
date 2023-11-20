@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>EBAC Banking</title>
+    <link rel="stylesheet" href="testando.css">
 </head>
 <body>
-    <div>
-        <h1> EBAC Banking </h1>
+    <header>
+        <h1>EBAC Banking</h1>
         <h2>Depósitos</h2>
-        <form>
-            <input type="text" id="Beneficiario" required placeholder="Nome completo">
-            <input type="number" id="conta" required placeholder="Numero da conta">
-            <input type="number" id="Depósito" required placeholder="Valor">
-            <textarea placeholder="Descrição (opicional)" id="Descrição"></textarea>
-            <button id="btn" type="submit">Despositar</button>
-        </form>
-    </div>
+    </header>
+    <form id="form-deposito">
+        <input id="nome-beneficiario" type="text" placeholder="Nome completo do beneficiário" required />
+        <input id="agencia-deposito" type="text" placeholder="Agência" required />
+        <input id="conta-deposito" type="text" placeholder="Conta" required />
+        <input id="valor-deposito" type="text" placeholder="Valor" required />
+        <textarea id="descricao" placeholder="Descrição(opcional)"></textarea>
+        <button type="submit">DEPOSITAR</button>
+    </form>
+    <script src="./testando.js"></script>
 </body>
 </html>
